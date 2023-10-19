@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment-6</title>
+        <style>
+            h1{
+                color: green;
+            }
+            .outerdiv{
+                border: 1px solid black;
+                padding: 10px;
+                font-weight: bold;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 20px;
+            }
+            .important{
+                background-color: orange;
+                font-weight: bold;
+            }
+            .innerdiv{
+                border: 1px solid black;
+                padding: 0px;
+                margin: 0px;
+                font-weight:bold;
+                font-size: 15px;
+            }
+            #important{
+                background-color: yellow;
+            }
+            span{
+                color: red;
+            }
+            .important span{
+                color: white;
+            }
+            #important span{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS SELECTORS</h1>
+        <div class="outerdiv">
+            <p>This is the <span>FIRST</span> Paragraph</p>
+            <p class="important">This is an <span>important</span> paragraph inside the Div Tag</p>
+            <div class="innerdiv">
+                <p>This is a paragraph inside the div with 0px padding and 0px margin</p>
+            </div>
+        </div>
+        <p>This is a regular paragraph</p>
+        <p id="important">This is a <span>paragraph that is not in the outer div</span></p>
+    </body>
+</html>
