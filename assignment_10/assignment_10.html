@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment-10</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+        }
+        .h1 {
+            background-color: #ef5c32;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        .card {
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 380px;
+            min-height: 380px;
+            position: relative;
+            margin-left: 20px;
+        }
+        .title-div {
+            color: #08aff1;
+            font-weight: bold;
+            padding: 30px;
+        }
+        .program-div {
+            font-weight: bold;
+            padding-left: 30px;
+        }
+        .card-image {
+            position: absolute;
+            bottom: 0px;
+            left: 180px;
+        }
+        .course-container {
+            position: absolute;
+            top: 120px;
+            left: 30px;
+            min-height: 380px;
+        }
+        .button-item {
+            color: #ef5c32;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            display: block;
+            margin-bottom: 10px;
+            padding: 5px;
+            font-weight: bold;
+        }
+        .inner-div{
+            display: flex;
+            gap: 10px;
+        }
+        .explorediv{
+            background-color: #ef5c32;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            width: 230px;
+            border-radius: 5px;
+            padding: 10px;
+            position: absolute;
+            bottom: 40px;
+            left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="h1">Career Charge</h1>
+    <div>
+    <h1 style="text-align: center;"><u>CareerCharge Courses</u></h1>
+    <div class="container">
+        <div class="card">
+            <div class="title-div">B.Tech 1-2 Years</div>
+            <img class="card-image" src="MicrosoftTeams-image (1).png">
+            <div class="program-div">Programming Languages</div>
+            <div class="course-container">
+                <div class="inner-div">
+                    <button class="button-item">Python</button>
+                    <button class="button-item">C</button>
+                </div>
+                <button class="button-item">JAVA</button>
+                <button class="button-item">Web Development</button>
+                <button class="button-item">JavaScript</button>
+            </div>
+            <div class="explorediv">Explore Courses</div>
+        </div>
+        <div class="card">
+            <div class="title-div">B.Tech 3-4 Year</div>
+            <img class="card-image" src="MicrosoftTeams-image (1).png">
+            <div class="program-div">Web development</div>
+            <div class="course-container">
+                <button class="button-item">Java Full Stack</button>
+                <button class="button-item">MERN Stack</button>
+            </div>
+            <div class="explorediv">Explore Courses</div>
+        </div>
+        <div class="card">
+            <div class="title-div">B.Tech completed</div>
+            <img class="card-image" src="MicrosoftTeams-image (1).png">
+            <div class="program-div">Career Oriented</div>
+            <div class="course-container">
+                <button class="button-item">Advanced SQL</button>
+                <button class="button-item">AWS Devops</button>
+                <button class="button-item">Data Engineering</button>
+            </div>
+            <div class="explorediv">Explore Courses</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
