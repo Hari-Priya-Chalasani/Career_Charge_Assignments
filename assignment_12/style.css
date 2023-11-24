@@ -1,0 +1,39 @@
+body {
+    text-align: end;
+}
+h1 {
+    text-align: center;
+}
+#validation_form {
+    text-align: start;
+    padding: 20px;
+    font-size: 20px;
+}
+#submit {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#form {
+    border: 1px solid grey;
+    height: 280px;
+    width: 400px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px; 
+    margin-top: 20px; 
+}
+#result_div {
+    margin-top: 20px;
+    text-align: center;
+}
