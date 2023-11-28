@@ -19,15 +19,15 @@ function handleTextInput() {
     let noCheckbox = document.getElementById("no");
     
     if (name.value === "") {
-        errorMessage += "Please enter a username, ";
+        errorMessage += "Please enter username, ";
     }
 
     if (college.value === "") {
-        errorMessage += "Please enter a college name, ";
+        errorMessage += "Please enter college name, ";
     }
 
     if (branch.value === "Select") {
-        errorMessage += "Please select a branch, ";
+        errorMessage += "Please select branch, ";
     }
 
     if (yesCheckbox.checked === false && noCheckbox.checked === false) {
